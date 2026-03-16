@@ -1,0 +1,45 @@
+aid: vertice
+name: Vertice
+description: >-
+  Vertice is an intelligent procurement platform that helps businesses manage
+  SaaS purchasing, contract management, and cloud spend optimization. It
+  integrates with major finance ERPs, contract management systems, ticketing
+  platforms, messaging tools, and SSO providers to centralize software
+  procurement workflows.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Procurement
+  - SaaS Management
+  - Contract Management
+  - Spend Management
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
+common:
+  - url: https://www.vertice.one/
+    name: Vertice - Intelligent Procurement Platform
+    type: Website
+    description: 'null'
+  - url: https://www.vertice.one/platform/integrations
+    name: Integrations | Vertice
+    type: Integrations
+    description: 'null'
+  - url: https://help.vertice.one/hc/en-us/
+    name: Vertice Support
+    type: Support
+    description: 'null'
+  - url: https://www.vertice.one/pricing
+    name: Pricing | Vertice
+    type: Pricing
+    description: 'null'
+  - url: https://www.vertice.one/blog
+    name: Vertice Blog
+    type: Blog
+    description: 'null'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

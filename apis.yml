@@ -9,9 +9,9 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Contract Management
   - Procurement
   - SaaS Management
-  - Contract Management
   - Spend Management
 url: >-
   https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/apis.yml

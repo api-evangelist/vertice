@@ -1,0 +1,13 @@
+{
+  "repo": "vertice",
+  "feeds": [
+    {
+      "source": "https://www.vertice.one/blog",
+      "feed_url": "https://www.vertice.one/blog/rss.xml",
+      "saved": 10,
+      "title": "Vertice Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:38:06Z"
+}

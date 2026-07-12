@@ -72,6 +72,10 @@ apis:
       - type: CloudFormationTemplate
         url: https://github.com/VerticeOne/cloudformation-aws-vertice-cco-integration
 common:
+  - type: TrustCenter
+    url: security/vertice-trust-center.yml
+  - type: DomainSecurity
+    url: security/vertice-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/verticeone
   - url: https://www.vertice.one/

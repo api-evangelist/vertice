@@ -19,13 +19,6 @@ Vertice is an intelligent procurement platform built for the modern enterprise w
 
 ## APIs
 
-### Vertice SaaS Procurement API
-
-The Vertice SaaS Procurement API enables deep, bi-directional data flow for partners and enterprise integrations. The API supports procurement workflows including intake-to-procure, contract lifecycle management, vendor management, spend analytics, and workflow automation across 32,000+ vendors.
-
-- **Documentation:** [https://help.vertice.one/hc/en-us/](https://help.vertice.one/hc/en-us/)
-- **Integrations:** [https://www.vertice.one/platform/integrations](https://www.vertice.one/platform/integrations)
-- **Partners:** [https://www.vertice.one/partners](https://www.vertice.one/partners)
 
 ### Vertice Cloud Cost Optimization API
 

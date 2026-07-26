@@ -11,7 +11,19 @@ description: >-
   20%+ savings for customers including ARM, Blackberry, Factorial, and
   Santander.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+    - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vertice.png
 tags:
   - Cloud Cost Optimization
   - Contract Management
@@ -21,31 +33,9 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/apis.yml
 created: '2026-05-03'
-modified: '2026-05-03'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 apis:
-  - aid: vertice:saas-procurement-api
-    name: Vertice SaaS Procurement API
-    description: >-
-      The Vertice SaaS Procurement API enables deep, bi-directional data flow
-      for partners and enterprise integrations. The API supports procurement
-      workflows including intake-to-procure, contract lifecycle management,
-      vendor management, spend analytics, and workflow automation across 32,000+
-      vendors.
-    humanURL: https://www.vertice.one/partners
-    tags:
-      - Contract Management
-      - Procurement
-      - SaaS Management
-      - Spend Analytics
-      - Vendor Management
-    properties:
-      - type: Documentation
-        url: https://help.vertice.one/hc/en-us/
-      - type: Integrations
-        url: https://www.vertice.one/platform/integrations
-      - type: Partners
-        url: https://www.vertice.one/partners
   - aid: vertice:cloud-cost-optimization-api
     name: Vertice Cloud Cost Optimization API
     description: >-

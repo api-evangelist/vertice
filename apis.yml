@@ -34,7 +34,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/apis.yml
 created: '2026-05-03'
 modified: '2026-07-25'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: vertice:cloud-cost-optimization-api
     name: Vertice Cloud Cost Optimization API

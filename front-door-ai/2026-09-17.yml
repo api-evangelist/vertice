@@ -1,0 +1,31 @@
+# Front Door AI Index — vertice — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: vertice
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: www.vertice.one
+  final_host: www.vertice.one
+  ownership: own
+  owner: vertice
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 6
+  band: 4
+  band_label: moderate
+  host_score: 6
+  density: 6.22
+  words: 965
+  tiers:
+    agentic: 2
+    core: 4
+    model: 0
+  ambiguous: 3
+  top_terms:
+    AI: 4
+    agent: 2
+    agentic: 2
+    predictive: 1

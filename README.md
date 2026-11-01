@@ -64,62 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Vertice is an intelligent procurement platform built for the modern enterprise with agentic workflows, AI insights, and expert buyers that empower finance and procurement teams across 30+ countries to buy smarter and scale faster. The platform covers SaaS purchasing and contract management, cloud spend optimization, and deep integrations with ERPs, CLMs, ticketing platforms, communication tools, TPRM systems, and SSOs.
+Vertice is an intelligent procurement platform built for the modern enterprise with agentic workflows, AI insights, and expert buyers that empower finance and procurement teams across 30+ countries to buy smarter and scale faster. The platform covers SaaS purchasing and contract management, cloud spend optimization (AWS, GCP, Azure), and integrates with ERPs, CLMs, ticketing platforms, communication tools, TPRM systems, and SSOs to centralize procurement workflows. Vertice processes over $30B in spend with proven 20%+ savings for customers including ARM, Blackberry, Factorial, and Santander.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/vertice/refs/heads/main/apis.yml)
+**Areas:** Cloud Cost Optimization · Contract Management · Procurement · SaaS Management · Spend Management
 
-## Tags
+## Vertice on APIs.io
 
-- Cloud Cost Optimization
-- Contract Management
-- Procurement
-- SaaS Management
-- Spend Management
+Everything profiled for Vertice is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/vertice/](https://apis.io/providers/vertice/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-05-03
-- **Modified:** 2026-05-03
+- [Vertice Cloud Cost Optimization API](https://apis.io/apis/vertice/cloud-cost-optimization-api/) — Vertice Cloud Cost Optimization integrates with AWS, GCP, and Azure accounts to provide cloud visibility, cost analytics, and optimization recommendations.…
 
-## APIs
+### Published properties
 
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Vertice Cloud Cost Optimization API
+#### Security (2)
 
-Vertice Cloud Cost Optimization integrates with AWS, GCP, and Azure accounts to provide cloud visibility, cost analytics, and optimization recommendations. Infrastructure-as-code templates are available for automated provisioning via Terraform and AWS CloudFormation.
+Authentication, trust centre, and vulnerability disclosure.
 
-- **Documentation:** [https://www.vertice.one/platform/cloud-cost-optimization](https://www.vertice.one/platform/cloud-cost-optimization)
-- **Terraform Module (AWS):** [https://github.com/VerticeOne/terraform-aws-vertice-integration](https://github.com/VerticeOne/terraform-aws-vertice-integration)
-- **CloudFormation Templates:** [https://github.com/VerticeOne/cloudformation-aws-vertice-cco-integration](https://github.com/VerticeOne/cloudformation-aws-vertice-cco-integration)
+- [Vertice Domain Security](https://apis.io/security/vertice/vertice-domain-security/)
+- [Vertice Trust Center](https://apis.io/security/vertice/vertice-trust-center/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Vertice Plans Pricing](https://apis.io/plans/vertice/vertice-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Vertice Rate Limits](https://apis.io/rate-limits/vertice/vertice-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Vertice Finops](https://apis.io/finops/vertice/vertice-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.vertice.one/)
-- [Integrations](https://www.vertice.one/platform/integrations)
-- [Support Center](https://help.vertice.one/hc/en-us/)
 - [Pricing](https://www.vertice.one/pricing)
+- [Support](https://help.vertice.one/hc/en-us/)
 - [Blog](https://www.vertice.one/blog)
-- [Partners](https://www.vertice.one/partners)
-- [GitHub Organization](https://github.com/VerticeOne)
-- [Terraform Module (AWS)](https://github.com/VerticeOne/terraform-aws-vertice-integration)
-- [CloudFormation Templates](https://github.com/VerticeOne/cloudformation-aws-vertice-cco-integration)
-- [Cloud Cost Optimization](https://www.vertice.one/platform/cloud-cost-optimization)
-- [Application Dashboard](https://app.vertice.one/)
+- [GitHub](https://github.com/VerticeOne)
 
-## Integrations
+## API Evangelist rating
 
-Vertice connects with 50+ tools across 11 categories:
+**Kin Score 15.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-- **ERP:** NetSuite, Coupa, SAP Ariba, Workday, Sage Intacct, QuickBooks, Xero, Zoho Books
-- **Communication:** Slack, Google Chat, Microsoft Teams
-- **SaaS Usage Monitoring:** Google Workspace, Microsoft Entra ID, Okta, OneLogin, JumpCloud
-- **Budgeting:** Anaplan, Google Sheets, Metabase, Pigment, SharePoint
-- **Legal:** IronClad, DocuSign, Conga, Juro, Adobe Sign, Microsoft 365
-- **TPRM:** OneTrust, Vanta, Drata, Hyperproof, Secureframe
-- **Data:** Credit Safe, Dun & Bradstreet, EcoVadis, Security Scorecard
-- **Ticketing:** Jira, Trello, ServiceNow, Monday
-- **HRIS:** ADP Workforce, BambooHR, Dayforce, Deel, Gusto, Rippling, SAP SuccessFactors
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 26.3 |
 
-## Maintainers
+**Agent readiness 0.6** — human-only
 
-**Kin Lane** — kin@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vertice/](https://apis.io/providers/vertice/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Vertice: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/vertice/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
